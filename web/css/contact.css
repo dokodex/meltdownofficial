@@ -1,0 +1,27 @@
+.booking{
+	background-image: url('../img/contact/background.png');
+	background-size:100%;
+	min-height:700px;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo_atlas{
+	width:90%;
+	margin-top:250px;
+}
+
+.press{
+	text-align: center;
+	min-height: 700px;
+}
+.logopress{
+	width: 90%;
+	padding: 20px;
+}
+
+.txt{
+	margin-bottom: 20px;
+	margin-top: -15px;
+}

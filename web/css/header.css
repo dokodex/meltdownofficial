@@ -1,0 +1,169 @@
+.header{
+	width:100%;
+}
+
+.languages{
+	padding-top:20px;
+	text-align:center;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.languages a{
+	text-decoration:none;
+	color:gray;
+}
+.logoheader{
+	width:350px;
+	padding-top:150px;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+.menu{
+	text-align:center;
+
+	margin-top:50px;
+
+}
+
+.menu li{
+	padding:50px;
+
+}
+
+.menu a{
+    opacity: 1;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+}
+.menu a:hover{
+	opacity: 0.5;
+}
+
+.menu a{
+	text-decoration:none;
+	color:gray;
+}
+
+.rs{
+	text-align:center;
+	margin-top:20px;
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+
+.rs li{
+    opacity: 1;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+
+}
+
+.rs li:hover{
+	opacity: 0.5;
+}
+
+.fa{
+	font-size:30px;
+	padding:20px;
+	color:black;
+}
+
+
+
+/* Firefox < 16 */
+ @-webkit-keyframes fadeInDown {
+    0%{
+    	-webkit-transform: translateY(-75px);
+    }
+
+    100%{
+    	-webkit-transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+
+       transform: translateY(-75px);
+            }
+            100% {
+               transform: translateY(0);
+            }
+         }
+         
+         .fadeInDown {
+            -webkit-animation-name: fadeInDown;
+            animation-name: fadeInDown;
+         }
+
+
+
+
+  @-webkit-keyframes fadeInRight {
+    0%{
+    	-webkit-transform: translateX(75px);
+    }
+
+    100%{
+    	-webkit-transform: translateX(0);
+    }
+}
+
+
+@keyframes fadeInRight {
+    0% {
+
+       transform: translateX(75px);
+            }
+            100% {
+               transform: translateX(0);
+            }
+         }
+         
+         .fadeInRight {
+            -webkit-animation-name: fadeInRight;
+            animation-name: fadeInRight;
+         }
+
+         
+
+/* Firefox < 16 */
+ @-webkit-keyframes fadeInLeft {
+    0%{
+    	-webkit-transform: translateX(-75px);
+    }
+
+    100%{
+    	-webkit-transform: translateX(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+
+       transform: translateX(-75px);
+            }
+            100% {
+               transform: translateX(0);
+            }
+         }
+         
+         .fadeInLeft {
+            -webkit-animation-name: fadeInLeft;
+            animation-name: fadeInLeft;
+         }
